@@ -1,0 +1,11 @@
+<select id="nowa">
+    <option>Opcja 1</option>
+    <option>Opcja 2</option>
+    <option>Opcja 3</option>
+  </select>
+<script>
+    fetch("https://api.cepik.gov.pl/pojazdy?wojewodztwo=14&data-od=20180101")
+    .then(res => {
+        console.log(res);
+    })
+</script>
